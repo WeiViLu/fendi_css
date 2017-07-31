@@ -1,23 +1,23 @@
 # 图片收缩，边框收缩效果
 # 图片收缩
   通过设置盒子大小，图片位置，隐藏图片的一部分，达到鼠标移上去有图片向后5的效果。css部分如下：
-  .box{
-			width: 405px;
-			height: 216px;
-			overflow: hidden;
-			position: relative;
-			margin: 0 auto;
-			margin-top: 50px;
-		}
-		.box:hover .inn{
-			transform: scale(0.9);
-		}
-		.inn{
-			position: absolute;
-			top: -12px;
-			left:-25px;
-			transition:0.5s;
-		}
+	.box{
+		width: 405px;
+		height: 216px;
+		overflow: hidden;
+		position: relative;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.box:hover .inn{
+		transform: scale(0.9);
+	}
+	.inn{
+		position: absolute;
+		top: -12px;
+		left:-25px;
+		transition:0.5s;
+	}
 # 边框收缩效果在盒子里放四个div，代表盒子的四条边。html部分如下：
     <div class="box">
         <img src="http://www.fendi.cn//sites/all/themes/fendi/img/homepage/170629/b-455-240.jpg" alt="" class="inn">
@@ -27,7 +27,7 @@
         <div class="line-bottom"></div>
     </div>
     设置四条边的位置：
-  .line-left,.line-right,.line-top,.line-bottom{
+  		.line-left,.line-right,.line-top,.line-bottom{
 			transition: 0.8s ease-out;／／缓慢消失
 			position: absolute;
 		}
@@ -56,7 +56,7 @@
 			bottom: 0;
 		}
     动画效果：
-    .box:hover .line-left{
+    		.box:hover .line-left{
 			transform: translateY(-100%);
 		}
 		.box:hover .line-right{
