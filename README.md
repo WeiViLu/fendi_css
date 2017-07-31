@@ -1,6 +1,7 @@
 # 图片收缩，边框收缩效果
 # 图片收缩
-  通过设置盒子大小，图片位置，隐藏图片的一部分，达到鼠标移上去有图片向后5的效果。css部分如下：<br>
+  通过设置盒子大小，图片位置，隐藏图片的一部分，达到鼠标移上去有图片向后移的效果。css部分如下：<br>
+  	  ```css
 		.box{
 			width: 405px;
 			height: 216px;
@@ -18,6 +19,7 @@
 			left:-25px;
 			transition:0.5s;
 		}
+	  ```
 # 边框收缩效果
   在盒子里放四个div，代表盒子的四条边。html部分如下：<br>
 		<div class="box">
@@ -28,6 +30,7 @@
 			<div class="line-bottom"></div>
 		</div>
  设置四条边的位置：
+   	      ```css
 		.line-left,.line-right,.line-top,.line-bottom{
 			transition: 0.8s ease-out;／／缓慢消失
 			position: absolute;
@@ -69,5 +72,5 @@
 		.box:hover .line-bottom{
 			transform: translateX(100%);
 		}
-    
+    	    ```
     
