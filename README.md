@@ -27,7 +27,7 @@
 			<div class="line-right"></div>
 			<div class="line-bottom"></div>
 		</div>
-		设置四条边的位置：
+ 设置四条边的位置：
 		.line-left,.line-right,.line-top,.line-bottom{
 			transition: 0.8s ease-out;／／缓慢消失
 			position: absolute;
