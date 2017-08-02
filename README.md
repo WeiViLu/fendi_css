@@ -22,7 +22,7 @@
 ```
 # 边框收缩效果
   在盒子里放四个div，代表盒子的四条边。html部分如下：<br>
- ``` bash
+``` bash
 		<div class="box">
 			<img src="http://www.fendi.cn//sites/all/themes/fendi/img/homepage/170629/b-455-240.jpg" alt="" class="inn">
 			<div class="line-left"></div>
@@ -30,9 +30,9 @@
 			<div class="line-right"></div>
 			<div class="line-bottom"></div>
 		</div>
-		```
+```
  设置四条边的位置：<\br>
-   	      ```
+``` bash
 		.line-left,.line-right,.line-top,.line-bottom{
 			transition: 0.8s ease-out;／／缓慢消失
 			position: absolute;
