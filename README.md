@@ -31,7 +31,7 @@
 			<div class="line-bottom"></div>
 		</div>
 ```
- 设置四条边的位置：<\br>
+ 设置四条边的位置：<br>
 ``` bash
 		.line-left,.line-right,.line-top,.line-bottom{
 			transition: 0.8s ease-out;／／缓慢消失
